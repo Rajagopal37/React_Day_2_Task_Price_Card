@@ -9,7 +9,7 @@ function App() {
       price:"$0/Month"
     },
     {
-      cardName: "plus",
+      cardName: "Plus",
       price:"$9/Month"
     },
     {
