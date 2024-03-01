@@ -19,16 +19,21 @@ function App() {
   ]
 
   return ( 
-    <div className="container mt-5 px-4 py-2 bg-gradient">
-        <div className="row ">
-            <div className="col-12 d-flex justify-content-center bg-primary">
-                {  datas.map((data, index)=>(
-                <ReactCard key={index} cardName={data.cardName} price={data.price}
-                />)) }
-            </div>
+        
+        <div className="container mt-5 bg-primary"> 
+          <div className="row">
+            
+                {  datas.map((data, index)=>( 
+                <div className="col-12 col-md-4 px-5  d-flex justify-content-center" key={{}}>
+                  {/* Resposive View */}
+                    <ReactCard key={index} cardName={data.cardName} price={data.price} />
+                </div>
+                  )) }
+            
+          </div>                                                              
         </div>
-    </div>
     )
 }
 
 export default App
+

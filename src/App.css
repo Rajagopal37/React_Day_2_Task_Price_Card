@@ -1,6 +1,4 @@
-.list-item{
-    background-color: white ;
-}
+
 
 ul {
     list-style: none;
@@ -15,7 +13,6 @@ ul li:before {
     padding:0 6px 0 0;
   }
 
-/* ul li:before {
-     content: "\2715";
-    color: black;
-  } */
+.container {
+  
+}
