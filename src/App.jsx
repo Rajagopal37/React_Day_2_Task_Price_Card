@@ -24,7 +24,7 @@ function App() {
           <div className="row">
             
                 {  datas.map((data, index)=>( 
-                <div className="col-12 col-md-4 px-5  d-flex justify-content-center" key={{}}>
+                <div className="col-12 col-md-4 col-sm-6 px-5  d-flex justify-content-center" key={{}}>
                   {/* Resposive View */}
                     <ReactCard key={index} cardName={data.cardName} price={data.price} />
                 </div>
