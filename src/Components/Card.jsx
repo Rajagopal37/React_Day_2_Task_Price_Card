@@ -18,16 +18,17 @@ export default function ReactCard(props) {
         {/* card body */}
         <div className="card-body d-flex justify-content-center">
         <ul className="list-item p-2" style={conbg}>
-            <li><span></span> Single User</li>
-            <li><span></span> 50GB Storage</li>
-            <li><span></span> Unlimited Public Projects</li>
-            <li><span></span> Community Access</li>
+            <li>✔︎ Single User</li>
+            <li>✔︎ Storage</li>
+            <li>✔︎ Unlimited Public Projects</li>
+            <li>✔︎ Community Access</li>           
 
-            <li><span></span>{props.list5}</li>
-            <li><span></span>{props.list6}</li>
-            <li><span></span>{props.list7}</li>
-
-            <li><span></span>{props.list8}</li>
+            <li>{props.list5a}</li>
+            <li>{props.list6a}</li>
+            <li>{props.list7a}</li>
+            <li>{props.list8a}</li>
+        
+            
         </ul>
         </div> 
 

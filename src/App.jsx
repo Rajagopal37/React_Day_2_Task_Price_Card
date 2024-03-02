@@ -7,37 +7,41 @@ function App() {
     {
       cardName: "Free",
       price:"$0/Month",
-      list5:"Unlimited Private Projects",
-      list6:"Dedicated Phone Support",
-      list7:"Free Subdomain",
-      list8:"Monthly Status Reports",
+
+      list5a:"✘ Unlimited Private Projects ",
+      list6a:"✘ Dedicated Phone Support ",
+      list8a:"✘ Monthly status reports ",
     },
     {
       cardName: "Plus",
       price:"$9/Month",
-      list5:"Unlimited Private Projects",
-      list6:"Dedicated Phone Support",
-      list7:"Free Subdomain",
-      list8:"Monthly Status Reports",
+
+      list5a:"✔︎ Unlimited Private Projects ",
+      list6a:"✔︎ Dedicated Phone Support ",
+      list7a:"✔︎ Free Subdomain ",
+      list8a:"✘ Monthly status reports ",
+
+      
     },
     {
       cardName: "Pro",
       price:"$49/Month",
-      list5:"Unlimited Private Projects",
-      list6:"Dedicated Phone Support",
-      list7:"Free Subdomain",
-      list8:"Monthly Status Reports",
+
+      list5a:"✔︎ Unlimited Private Projects ",
+      list6a:"✔︎ Dedicated Phone Support ",
+      list7a:"✔︎ Free Subdomain ",
+      list8a:"✔︎ Monthly status reports ",
+      
+      
     },
   ]
 
-  const tick = "✓" ;
-  const cross = "x";
+  //  const tick = "✔︎" ;
+  //  const cross = "✘";
 
-  const free = datas[0].cardName === "Free" ? tick : cross;
-  const plus = datas[1].cardName === "Plus" ? tick : cross;
-  const pro = datas[2].cardName === "Pro" ? tick : cross;
-
-
+  // const free = {props.cardName}  === {props.list5} ? "✔︎" : "✘";
+  // const plus = datas[1].cardName === datas[1].list5 ? "✔︎" : "✘";
+  // const  pro = datas[2].cardName === datas[2].list5 ? "✔︎" : "✘";
 
 
   return ( 
@@ -48,12 +52,14 @@ function App() {
               { datas.map((data, index)=>( 
               <div className="col-12 col-md-4 col-sm-6 px-5  d-flex justify-content-center" key={{}}>
                   <ReactCard key={index} 
-                  cardName={data.cardName} 
-                  price={data.price}
-                  list5={data.list5}
-                  list6={data.list6} 
-                  list7={data.list7} 
-                  list8={data.list8} />
+                      cardName={data.cardName} 
+                      price={data.price}
+                      list5a={data.list5a}
+                      list6a={data.list6a}
+                      list7a={data.list7a}
+                      list8a={data.list8a}
+                                      
+                                         />
               </div>     )) }
 
           </div>                                                              
