@@ -10,6 +10,7 @@ function App() {
 
       list5a:"✘ Unlimited Private Projects ",
       list6a:"✘ Dedicated Phone Support ",
+      list7a:"✘ Free Subdomain ",
       list8a:"✘ Monthly status reports ",
     },
     {
@@ -45,8 +46,9 @@ function App() {
 
 
   return ( 
-        
+    
         <div className="container mt-5 bg-primary"> 
+          
           <div className="row">
 
               { datas.map((data, index)=>( 
@@ -64,6 +66,7 @@ function App() {
 
           </div>                                                              
         </div>
+      
     )
 }
 
