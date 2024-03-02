@@ -4,7 +4,17 @@ ul {
     list-style: none;
   }
   
-button{
+button {
   width: 60%;
+  border: none;
+  border-radius: 20px;
+  color:#5466dd;
 }
 
+button:hover{
+  background-color: blue;
+}
+
+.container{
+  background: linear-gradient(270deg, #00d2ff 0%, #3a47d5 100%);
+}
