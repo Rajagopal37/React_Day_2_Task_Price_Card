@@ -6,7 +6,7 @@ function App() {
   const datas = [
     {
       cardName: "Free",
-      price:"$0/Month",
+      price:"$0/month",
 
       list5a:"✘ Unlimited Private Projects ",
       list6a:"✘ Dedicated Phone Support ",
@@ -15,7 +15,7 @@ function App() {
     },
     {
       cardName: "Plus",
-      price:"$9/Month",
+      price:"$9/month",
 
       list5a:"✔︎ Unlimited Private Projects ",
       list6a:"✔︎ Dedicated Phone Support ",
@@ -26,7 +26,7 @@ function App() {
     },
     {
       cardName: "Pro",
-      price:"$49/Month",
+      price:"$49/month",
 
       list5a:"✔︎ Unlimited Private Projects ",
       list6a:"✔︎ Dedicated Phone Support ",
