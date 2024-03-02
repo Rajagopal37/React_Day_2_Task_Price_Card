@@ -8,6 +8,7 @@ function App() {
       cardName: "Free",
       price:"$0/month",
 
+      list1a:"✔︎ Single User",
       list5a:"✘ Unlimited Private Projects ",
       list6a:"✘ Dedicated Phone Support ",
       list7a:"✘ Free Subdomain ",
@@ -17,6 +18,7 @@ function App() {
       cardName: "Plus",
       price:"$9/month",
 
+      list1a:"✔︎ 5 Users",
       list5a:"✔︎ Unlimited Private Projects ",
       list6a:"✔︎ Dedicated Phone Support ",
       list7a:"✔︎ Free Subdomain ",
@@ -28,6 +30,7 @@ function App() {
       cardName: "Pro",
       price:"$49/month",
 
+      list1a:"✔︎ Unlimited Users",
       list5a:"✔︎ Unlimited Private Projects ",
       list6a:"✔︎ Dedicated Phone Support ",
       list7a:"✔︎ Free Subdomain ",
@@ -56,6 +59,7 @@ function App() {
                   <ReactCard key={index} 
                       cardName={data.cardName} 
                       price={data.price}
+                      list1a={data.list1a}
                       list5a={data.list5a}
                       list6a={data.list6a}
                       list7a={data.list7a}

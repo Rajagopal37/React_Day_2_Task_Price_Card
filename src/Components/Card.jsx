@@ -17,7 +17,7 @@ export default function ReactCard(props) {
          {/* card body */}
         <div className="card-body d-flex justify-content-center">
             <ul className="list-item p-2" style={conbg}>
-                <li>✔︎ Single User</li>
+                <li>{props.list1a}</li>
                 <li>✔︎ Storage</li>
                 <li>✔︎ Unlimited Public Projects</li>
                 <li>✔︎ Community Access</li>           
